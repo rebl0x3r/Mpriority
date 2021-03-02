@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# SMTP Method 
+# SMTP Mailer Method
+# Private 
+# Telegram : @f4c3r100
+
 apt update -y
 apt upgrade -y
 apt install apache2 -y
@@ -15,7 +20,7 @@ hostname $mail
 apt install postfix -y
 cd /var/www/html
 
-wget https://github.com/rebl0x3r/Mpriority/blob/main/Mpriority.zip?raw=true
+wget https://github.com/rebl0x3r/Mpriority/blob/main/Mpriority.zip?raw=true -O priority.zip
 
 sudo apt install unzip -y
 
